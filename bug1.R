@@ -9,7 +9,8 @@ rjson(1:10)
 cat('######################## after first call\n')
 
 
-load_all('pkgdll', reset = FALSE, export_all = FALSE) 
+# reset = FALSE crashes too
+load_all('pkgdll', reset = TRUE, export_all = FALSE)
 
 cat('=============================before call2\n')
 rjson(1:10)

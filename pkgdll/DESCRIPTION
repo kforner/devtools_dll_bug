@@ -1,0 +1,11 @@
+Package: pkgdll
+Title: pkg with a dummy dll
+Version: 0.1
+Author: QB <all@quartzbio.com>
+Maintainer: <all@quartzbio.com>
+Description: pkg with a dummy dll
+Imports:
+Depends:
+    R (>= 2.15)
+Suggests:
+License: GPL (>= 3)

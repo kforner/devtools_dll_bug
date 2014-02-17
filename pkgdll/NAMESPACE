@@ -1,0 +1,2 @@
+useDynLib(pkgdll)
+export(DUMMY)

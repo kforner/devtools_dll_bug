@@ -1,0 +1,4 @@
+export(rjson)
+#importFrom(pkgdll, DUMMY)
+importFrom(RJSONIO,fromJSON)
+importFrom(RJSONIO,toJSON)

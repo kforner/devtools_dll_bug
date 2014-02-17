@@ -1,0 +1,4 @@
+export(rjson)
+#importFrom(pkgdll, DUMMY)
+importFrom(jsonlite,fromJSON)
+importFrom(jsonlite,toJSON)
